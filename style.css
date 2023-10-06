@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabecera */
+
+header {
+    width: 100%;
+    height: 80px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(55 53 47);
+}
+
+.logo {
+    height: 70px;
+    width: 154px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: antiquewhite;
+    display: flex;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    width: calc(100% - 164px);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    height: 25%;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration-line: none;
+    font-weight: bold;
+
+}
+    
+
+/* Cuerpo */
+
+.front-page-photo {
+    width: 100%;
+    height: 600px;
+    background-image: url(/Mozzaflex/Assets/photo\ mozza\ bar.jpeg);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.apartados {
+    width: auto;
+    height: 107px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/* Parte concepto*/
+
+div.container-concept {
+    width: 100%;
+    height: 600px;
+    background-image: url(/Mozzaflex/Assets/fondo\ plantas.jpeg); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.concept {
+    background-color: black;
+    height: 300px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+p.text-concept {
+    color:white;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.title-concept {
+    color:white;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.title-concept::after, .title-concept::before {
+    border:1px solid white;
+    content: "";
+    display: inline-block;
+    width: 120px;
+    margin: 0 5px 5px 5px;
+}
+/* Parte imágenes*/
+
+.container-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Mozzaflex/Assets/fondo\ claro.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1 {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.img-2 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    width: 190px;
+}
+
+.img-3 {
+    display: flex;
+    flex-direction: column;
+    width:  190px;
+}
+
+.estanteria {
+    padding-bottom: 10px;
+}
+
+.botella {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sillas {
+    padding-bottom: 10px;
+}
+
+/* Parte menú */
+
+.carta {
+    width:100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-carta {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.title-carta::after, .title-carta::before {
+    border:1px solid black;
+    content: "";
+    display: inline-block;
+    width: 120px;
+    margin: 0 5px 5px 5px;
+}
+
+.apartados2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+ .partes {
+    font-size: 20px;
+    margin-right:20px;
+    margin-bottom: 10px;
+ }
+
+ .container-menu {
+    width: 80%;
+    height: 1101px;
+    background-image: url(/Mozzaflex/Assets/fondo\ plantas.jpeg);
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .menu-left {
+    width: 45%;
+    height: 820px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+ }
+
+ .menu-right {
+    width: 45%;
+    height: 900px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ 
+table {
+    height: 700px;
+    width: 240px;
+    display: flex;
+    border-spacing: 35px 10px;
+    font-size: 13px ;
+}
+
+.enlace {
+    margin-top: 20px;
+    background-color: goldenrod;
+    color: white;
+    margin-bottom: 30px;
+    
+
+}
+
+/* Parte reserva */
+
+div.container-reserva {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Mozzaflex/Assets/fondo\ claro.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-reservas {
+    width: 80%;;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.otro {
+    display: flex;
+}
+.title-reservas {
+    color:white;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title-reservas::after, .title-reservas::before {
+    border:1px solid goldenrod;
+    content: "";
+    display: inline-block;
+    width: 120px;
+    margin: 0 5px 5px 5px;
+}
+
+fieldset {
+    border: none;
+    padding-top: 30px;
+}
+
+label {
+    color:white
+}
+.mozza-info {
+    width: 40%;
+    margin-top: 40px;
+
+} 
+.title-mozza-name {
+    font-size: 20px;
+    color: goldenrod;
+}
+
+.title-mozza-food {
+    font-size: 20px;
+    color:white;
+}
+
+.lista-espera {
+    color:white;
+}
+
+.mozza-direction {
+color: white;
+}
+
+/* Parte blog */
+
+.blog {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-blog {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+
+.blog1 {
+   width: 25%;
+   height: 350px;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Mozzaflex/Assets/terraza.jpg);
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+}
+
+.mozza-cartel {
+    padding-bottom: 100px;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.text-blog {
+    color:white;
+    padding-left: 15px;
+}
+
+.blog2 {
+   width: 25%;
+   height: 350px;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Mozzaflex/Assets/fresa-age-z.jpg.webp);
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+
+}
+
+.blog3 {
+   width: 25%;
+   height: 350px;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+}
+
+.title-blog {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title-blog::after, .title-blog::before {
+    border:1px solid goldenrod;
+    content: "";
+    display: inline-block;
+    width: 120px;
+    margin: 0 5px 5px 5px;
+}
+
+/* Footer */
+
+footer {
+    width:100%;
+    height: 550px;
+}
+
+.footer-part1 {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(55 53 47);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.logo2 {
+    height: 70px;
+    width: 154px;
+    background-color: antiquewhite;
+    display: flex;
+    text-align: center;;
+}
+
+.text-logo2 {
+    width: 220px;
+    font-size: 20;
+    margin-top: 20px;
+    color:antiquewhite
+
+}
+
+.container-icons{
+    width:100%;
+    height: 138px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.map-icon {
+    height: 20px;
+    width:30px;
+    color:antiquew5hite;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+
+.movil-icon {
+    height: 30px;
+    width:20px;
+    color:antiquewhite;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+
+.mail-icon {
+    height: 30px;
+    width:20px;
+    color:antiquewhite;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+
+.text-icon {
+    font-size: 12px;
+    color:antiquewhite
+}
+
+.footer-part2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.title-footer {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title-footer::after, .title-footer::before {
+    border:1px solid goldenrod;
+    content: "";
+    display: inline-block;
+    width: 120px;
+    margin: 0 5px 5px 5px;
+}
+
+.container-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%
+}
+.social {
+    border: 1px solid black;
+    width:25%;
+    height: 35px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 15px;
+    color:black;
+}
+
+.footer-part3 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(226, 223, 223);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.link-avisos {
+    color:black;
+}
